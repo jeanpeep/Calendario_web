@@ -1,0 +1,53 @@
+
+header{
+    background-image: url(https://i.imgur.com/BqYLC3a.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0%;
+    height: 250px;
+    flex-direction: column;
+}
+.calendario{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.contenedor{
+    width: 400px;
+    margin: 15px;
+}
+.mes{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-content: flex-start;
+}
+.semana{
+    display: inline-flex;
+    width: 50px;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+    flex-wrap: nowrap;
+    background-color: #e2ddd6;
+}
+.dia{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: 50px;
+    font-size: 0.8rem;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.dia-domingo{
+    color: red;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: 50px;
+    font-size: 0.8rem;
+    align-content: center;
+    justify-content: space-evenly;
+}
